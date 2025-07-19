@@ -18,8 +18,12 @@ Number number = new Number();
 //Array_Practice array = new Array_Practice();
 //array.RemoveDuplicates();
 
-string_practice str = new string_practice();
-string haystack = "sabutsad";
-string needle = "sad";
-int result = str.StrStr(haystack, needle);
-Console.WriteLine(result);
+//string_practice str = new string_practice();
+//string haystack = "sabutsad";
+//string needle = "sad";
+//int result = str.StrStr(haystack, needle);
+//Console.WriteLine(result);
+
+LinkList_Practice linkList_Practice = new LinkList_Practice();
+linkList_Practice.AddTwoLinkList();
+
