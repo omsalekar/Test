@@ -149,5 +149,43 @@ namespace DailySparks
             result[0] = 1;
             return result;
         }
+
+
+        public void ReverseNumber()
+        {
+            int x = 1534236469;
+            bool outofrange = false;
+            bool ispositive = false;
+            long reverse = 0;
+           
+           
+                if (x < 0)
+                {
+                    ispositive = true;
+                    x = x * -1;
+                }
+
+
+                while (x > 0)
+                {
+                    int digit = x % 10;
+                    reverse = reverse * 10 + digit;
+                    x = x / 10;
+                }
+                if (ispositive)
+                {
+                    reverse = reverse * -1;
+                }
+            if ((reverse < Int32.MinValue || reverse > Int32.MaxValue))
+            {
+                outofrange = true;
+            }
+            if (outofrange)
+            {
+                reverse = reverse * 0;
+            }
+            Console.WriteLine(reverse);
+        
+        }
     }
 }

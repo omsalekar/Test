@@ -6,7 +6,7 @@ Palindrome palindrome = new Palindrome();
 //palindrome.palindrome();
 
 Number number = new Number();
-
+//number.ReverseNumber();
 //number.TwoSum();
 //number.Palindrome();
 //number.RomanToInt();
@@ -15,5 +15,11 @@ Number number = new Number();
 //number.PlusOne(nums);
 
 
-Array_Practice array = new Array_Practice();
-array.RemoveDuplicates();
+//Array_Practice array = new Array_Practice();
+//array.RemoveDuplicates();
+
+string_practice str = new string_practice();
+string haystack = "sabutsad";
+string needle = "sad";
+int result = str.StrStr(haystack, needle);
+Console.WriteLine(result);
