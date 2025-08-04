@@ -8,9 +8,8 @@ namespace DailySparks
 {
     public class LinkList_Practice
     {
+
     }
-
-
-
+  
 }
 

@@ -24,6 +24,9 @@ Number number = new Number();
 //int result = str.StrStr(haystack, needle);
 //Console.WriteLine(result);
 
-LinkList_Practice linkList_Practice = new LinkList_Practice();
-linkList_Practice.AddTwoLinkList();
+//LinkList_Practice linkList_Practice = new LinkList_Practice();
+//linkList_Practice.AddTwoLinkList();
+
+//Array_Practice array = new Array_Practice();
+//array.singleNumber();
 

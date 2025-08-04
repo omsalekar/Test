@@ -32,6 +32,39 @@ namespace DailySparks
             }
         }
 
+
+        public int singleNumber()
+        {
+            int [] arr = { 4, 1, 2, 1, 2 };
+            
+            List<int> duplicate = new List<int>();
+            int result = 0;
+
+            for(int i = 0; i < arr.Length; i++)
+            {
+               for(int j=i+1; j < arr.Length; j++)
+                {
+                    if (arr[i] == arr[j])
+                    {
+                        duplicate.Add(arr[i]);
+                       
+                    }
+                }
+
+               
+            }
+            for(int k = 0; k < arr.Length; k++)
+            {
+                if (!duplicate.Contains(arr[k]))
+                {
+                    result = arr[k];
+                }
+            }
+            Console.WriteLine(result);
+            return result;
+
+        }
+
       
 
     }
