@@ -30,3 +30,7 @@ Number number = new Number();
 //Array_Practice array = new Array_Practice();
 //array.singleNumber();
 
+CodingRound codingRound = new CodingRound();
+codingRound.ReverseString();
+codingRound.SecondHigest();
+codingRound.anagram();
